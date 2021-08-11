@@ -1,0 +1,96 @@
+
+html,
+body {
+    height: 100%;
+	font-family: 'Consolas', serif;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;    
+    background-color: white;
+    padding: 5px;
+    height: 100%;
+}
+
+.content-wrapp{
+    margin: 0 auto;
+    width: 800px;
+    max-width: 1500px;
+    display: flex;   
+    justify-content: center;    
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: teal;
+}
+
+ul  {
+    display: flex;
+    list-style-type: none;
+}
+
+ul li {
+    margin-right: 20px;
+}
+
+li a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: whitesmoke;
+    font-weight: 600;
+}
+
+.logo img {
+    width: 70px;
+    height: 70px;
+    margin-left: 10px;
+}
+
+.about_me {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+}
+
+.data {
+    display: flex;
+    align-items: center;
+}
+
+.fullname {
+    margin-right: 20px;
+    flex-basis: 750px;
+}
+
+
+p {
+    color: #08298A;
+}
+
+.text {
+    color: #585858;
+    text-align: justify;
+}
+
+
+h1 {
+    color: goldenrod;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.footer {
+    background-color: teal;
+    flex: 0 0 auto;    
+    min-height: 300px;
+}
+.footer h2 {
+    text-align: center;
+    color: whitesmoke;
+    line-height: 300px;
+}
